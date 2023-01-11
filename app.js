@@ -1,10 +1,5 @@
-// var ArrowFunc = function (arr) {
-//     // return arr.map( => ).join(''); //Complete this function
-//     function 
-// }
-
-function ArrowFunction(arr) {
-    return arr;
+var ArrowFunc = function (arr) {
+    return arr.map(element => String.fromCharCode(element)).join('');
 }
 
 console.log(ArrowFunc([84, 101, 115, 116])); // 'Test'
